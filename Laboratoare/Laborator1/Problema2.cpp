@@ -2,12 +2,10 @@
 #include <vector>
 using namespace std;
 
-
 struct Nod {
     int val;
     Nod* next;
 };
-
 
 void push(Nod*& top, int val) {
     Nod* nou = new Nod;
@@ -16,14 +14,12 @@ void push(Nod*& top, int val) {
     top = nou;
 }
 
-
 void pop(Nod*& top) {
     if (top == nullptr) return;
     Nod* temp = top;
     top = top->next;
     delete temp;
 }
-
 
 int top(Nod* top) {
     if (top == nullptr) return -1;
