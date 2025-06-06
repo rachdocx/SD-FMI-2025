@@ -9,7 +9,6 @@ int left(int i) { return (2*i + 1); }
 
 int right(int i) { return (2*i + 2); }
 
-
 void downKey(int h[], int dim_h, int i) {
   //fiul minim
   while (left(i) < dim_h) {

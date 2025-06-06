@@ -75,7 +75,6 @@ int main() {
         else if (comanda == "pwd") {
             cout<<s.topArgument()<<endl;
         }
-
     }
     return 0;
 }
