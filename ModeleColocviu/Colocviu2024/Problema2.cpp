@@ -1,5 +1,5 @@
 #include <iostream>
-#include <algorithm> // pentru swap
+#include <algorithm>
 using namespace std;
 
 const int MAXDIM = 1000;
